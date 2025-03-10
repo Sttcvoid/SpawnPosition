@@ -1,4 +1,4 @@
-package org.sttcvoid.spawnPosition
+package ru.sttcvoid.joinPosition
 
 import org.bukkit.Location
 import org.bukkit.event.EventHandler
@@ -7,7 +7,7 @@ import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.plugin.java.JavaPlugin
 import java.io.File
 
-class SpawnPosition : JavaPlugin(), Listener {
+class JoinPosition : JavaPlugin(), Listener {
 
     override fun onEnable() {
         logger.info("Created by Sttcvoid")

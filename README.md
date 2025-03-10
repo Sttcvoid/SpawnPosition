@@ -1,4 +1,4 @@
-# SpawnPosition
+# JoinPosition
 **Teleports the player to the specified position each time he connects to the server.**
 
 ## Default config

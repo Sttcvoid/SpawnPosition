@@ -1,1 +1,1 @@
-rootProject.name = "SpawnPosition"
+rootProject.name = "JoinPosition"

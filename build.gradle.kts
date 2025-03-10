@@ -3,7 +3,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "org.sttcvoid"
+group = "ru.sttcvoid"
 version = "1.0"
 
 repositories {
@@ -42,7 +42,7 @@ tasks.processResources {
 tasks.withType<Jar> {
     // Otherwise you'll get a "No main manifest attribute" error
     manifest {
-        attributes["Main-Class"] = "org.sttcvoid.spawnPosition.SpawnPosition"
+        attributes["Main-Class"] = "ru.sttcvoid.joinPosition.JoinPosition"
     }
 
     // To avoid the duplicate handling strategy error

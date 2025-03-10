@@ -1,5 +1,5 @@
-name: SpawnPosition
+name: JoinPosition
 version: '1.0'
-main: org.sttcvoid.spawnPosition.SpawnPosition
+main: ru.sttcvoid.joinPosition.JoinPosition
 api-version: '1.21'
 authors: [ Sttcvoid ]
